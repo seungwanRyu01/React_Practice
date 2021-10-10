@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React, { Component, Fragment } from 'react';
 import './App.css';
+import MyProperties from './MyProperties';
 import Test from "./Test";
 import Test2 from "./Test2";
 
@@ -32,13 +33,20 @@ import Test2 from "./Test2";
 
 // 부모 Component : 함수형
 const App = () => {
-    
+
+    const func = () => {
+        console.log("콘솔 띄우기 성공!");
+    };
+
     return (
         <>
-            <Test name="유승완"></Test>
-            <Test2></Test2>
+            <MyProperties 
+                text = "App 컴포넌트에서 넘겨준 text props입니다."
+                valid = { func }
+            >
+            </MyProperties>
         </>
-    )
+    );
 }
 
 

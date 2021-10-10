@@ -55,8 +55,11 @@
 
 
 
-.all {
-  display: inline-flex;
+.All {
+  background-color: beige;
+  text-align: center;
+  width: 500px;
+  height: 500px;
 }
 
 .red{
@@ -99,4 +102,34 @@
   background-color: purple;
   width: 100px;
   height: 400px;
+}
+
+
+.best_title{
+  font-weight: bold;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: coral;
+}
+
+
+.book_img{
+  width: 140px;
+  height: 200px;
+  padding-bottom: 20px;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.content{
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 10px;
 }
