@@ -4,6 +4,8 @@ import './App.css';
 import MyProperties from './MyProperties';
 import Test from "./Test";
 import Test2 from "./Test2";
+import Counter from './Counter';
+import Say from './Say';
 
 
 
@@ -31,23 +33,29 @@ import Test2 from "./Test2";
 
 
 
-// 부모 Component : 함수형
+// 부모 Component Props : 함수형
+// const App = () => {
+
+//     const func = () => {
+//         console.log("콘솔 띄우기 성공!");
+//     };
+
+//     return (
+//         <>
+//             <MyProperties 
+//                 text = "App 컴포넌트에서 넘겨준 text props입니다."
+//                 valid = { func }
+//             >
+//             </MyProperties>
+//         </>
+//     );
+// }
+
+
 const App = () => {
-
-    const func = () => {
-        console.log("콘솔 띄우기 성공!");
-    };
-
-    return (
-        <>
-            <MyProperties 
-                text = "App 컴포넌트에서 넘겨준 text props입니다."
-                valid = { func }
-            >
-            </MyProperties>
-        </>
-    );
-}
+    // return <Counter></Counter>
+    return <Say></Say>
+};
 
 
 export default App;
