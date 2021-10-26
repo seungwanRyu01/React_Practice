@@ -45,7 +45,7 @@ const Example = () => {
     }
 
 
-    // Map 함수 사용하기
+    // Map 함수 : JavaScript 배열 객체의 내장 함수 -> 파라미터로 전달된 함수를 사용해 배열 내 각 요소를 원하는 규칙에 따라 변환한 후 그 결과로 새로운 배열을 생성한다.
     // const food = [ "삼겹살", "회덮밥", "커피", "김밥" ];
     // 고유한 Key Props를 index에 부여해야 한다. 하지만 key값을 index에 부여하는 방식은 위험하기에 권장하지 않는다.
     // const foodList = food.map( ( foods, index ) => <li key={ index }>{ foods }</li> );

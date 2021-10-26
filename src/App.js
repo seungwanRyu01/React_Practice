@@ -8,6 +8,7 @@ import Counter from './Counter';
 import Say from './Say';
 import Example from './Example';
 import Event from './Event';
+import ExamplePractice from './ExamplePractice.js';
 import EventPractice from './EventPractice';
 
 
@@ -56,7 +57,7 @@ import EventPractice from './EventPractice';
 const App = () => {
 
     return (
-        <Example></Example>
+        <ExamplePractice></ExamplePractice>
     );
 };
 
