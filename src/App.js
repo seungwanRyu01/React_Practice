@@ -6,7 +6,9 @@ import Test from "./Test";
 import Test2 from "./Test2";
 import Counter from './Counter';
 import Say from './Say';
-
+import Example from './Example';
+import Event from './Event';
+import EventPractice from './EventPractice';
 
 
 // React 기본 App() 함수
@@ -32,7 +34,6 @@ import Say from './Say';
 // }
 
 
-
 // 부모 Component Props : 함수형
 // const App = () => {
 
@@ -53,9 +54,10 @@ import Say from './Say';
 
 
 const App = () => {
-    // return<Counter></Counter>
-    return <Say></Say>
-};
 
+    return (
+        <Example></Example>
+    );
+};
 
 export default App;

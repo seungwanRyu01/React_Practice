@@ -90,4 +90,12 @@ class Counter extends Component {
 
 }
 
+// 카멜표기법
+
+// onclick onClick
+
+// 이번트에 실행할 자바스크립트 코드를 전달하는 것이 아니라 점수 형태로 전달해줘야 한다.
+
+// 컴포넌트에는 이벤트를 등록하지 못한다. Dom 요소에만 설정할 수 있다!!
+
 export default Counter;
