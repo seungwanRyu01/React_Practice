@@ -10,6 +10,7 @@ import Example from './Example';
 import Event from './Event';
 import ExamplePractice from './ExamplePractice.js';
 import EventPractice from './EventPractice';
+import Article from './Article';
 
 
 // React 기본 App() 함수
@@ -53,11 +54,10 @@ import EventPractice from './EventPractice';
 //     );
 // }
 
-
 const App = () => {
 
     return (
-        <ExamplePractice></ExamplePractice>
+        <Article></Article>
     );
 };
 
