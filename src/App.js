@@ -11,6 +11,10 @@ import Event from './Event';
 import ExamplePractice from './ExamplePractice.js';
 import EventPractice from './EventPractice';
 import Article from './Article';
+import Event_ex from './ex/Event_ex';
+import UseEffect from './UseEffect_Practice';
+import UseRef from './UseRef_Practice';
+import RefLogin from './UseRef_Login';
 
 
 // React 기본 App() 함수
@@ -57,7 +61,7 @@ import Article from './Article';
 const App = () => {
 
     return (
-        <Article></Article>
+        <RefLogin/>
     );
 };
 
